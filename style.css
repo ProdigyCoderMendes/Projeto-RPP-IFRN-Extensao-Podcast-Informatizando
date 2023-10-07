@@ -44,6 +44,16 @@ nav a {
     color: #100101;
 }
 
+.hero h2{
+    font-size: 30px;
+}
+
+.hero p{
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
 .hero img{
     width: 300px;
 }
@@ -53,9 +63,19 @@ nav a {
     margin-bottom: 20px;
 }
 
+.episode p{
+    font-size: 20px;
+}
+
+.episode h3{
+    font-size: 25px;
+}
+
 .episodes{
     padding-left: 20px;
 }
+
+
 
 .button {
     display: inline-block;
@@ -64,6 +84,12 @@ nav a {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .episodes h2{

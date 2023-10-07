@@ -39,7 +39,7 @@ header img{
     width: 300px;
 }
 
-p{
+.hero p{
     margin: 30px;
     font-size: 20px;
     font-weight: 300;
@@ -47,4 +47,10 @@ p{
 
 .introducao-episodio{
     display: flex;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
