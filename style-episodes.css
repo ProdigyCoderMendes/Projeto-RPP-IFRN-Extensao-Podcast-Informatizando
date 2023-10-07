@@ -72,7 +72,9 @@ footer{
         flex-direction: column;
     }
 
-    .introducao-episodio img{
-        max-height: 50px;
+    .hero p{
+        margin: 20px;
+        font-size: 30px;
+        font-weight: 300;
     }
 }
