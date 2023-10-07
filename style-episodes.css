@@ -47,8 +47,8 @@ header img{
 
 .hero p{
     margin: 30px;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .introducao-episodio{
@@ -86,11 +86,5 @@ footer{
         align-items: center;
         justify-content: center;
         flex-direction: column;
-    }
-
-    .hero p{
-        margin: 20px;
-        font-size: 30px;
-        font-weight: 300;
     }
 }

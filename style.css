@@ -50,7 +50,7 @@ nav a {
 .hero p{
     margin: 30px;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .hero img{
@@ -71,6 +71,7 @@ nav a {
 
 .episode p{
     font-size: 20px;
+    font-weight: 600;
 }
 
 .episode h3{
