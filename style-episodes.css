@@ -36,7 +36,14 @@ header img{
 }
 
 .hero img{
+    border-radius: 20px;
     width: 300px;
+}
+
+.hero img:hover{
+    cursor: pointer;
+    width: 340px;
+    transition: 0.5s;
 }
 
 .hero p{
@@ -63,6 +70,12 @@ footer{
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .hero img:hover{
+        cursor: pointer;
+        width: 340px;
+        transition: 0.5s;
     }
 
     .hero h2{

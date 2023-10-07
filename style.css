@@ -55,7 +55,14 @@ nav a {
 }
 
 .hero img{
+    border-radius: 20px;
     width: 300px;
+}
+
+.hero img:hover{
+    cursor: pointer;
+    width: 340px;
+    transition: 0.5s;
 }
 
 .episode {
