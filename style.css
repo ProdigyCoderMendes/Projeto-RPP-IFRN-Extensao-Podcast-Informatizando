@@ -4,7 +4,6 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #65ff5d, #085903);
 }
 
 header {
@@ -117,4 +116,14 @@ footer{
 
 p{
     font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .button{
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 5px;
+    }
+
 }
