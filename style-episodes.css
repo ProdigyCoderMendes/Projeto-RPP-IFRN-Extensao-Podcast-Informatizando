@@ -54,3 +54,25 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
+/* midia queries */
+/* Estilos para telas menores (por exemplo, telas de celular) */
+@media screen and (max-width: 768px) {
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .introducao-episodio{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .introducao-episodio img{
+        max-height: 50px;
+    }
+}
