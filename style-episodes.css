@@ -1,0 +1,31 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #085903;
+    color: #fff;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+header img{
+    max-height: 110px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px;
+    color: #100101;
+}
+
+.hero img{
+    width: 300px;
+}

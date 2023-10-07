@@ -1,0 +1,65 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #085903;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px;
+    color: #100101;
+}
+
+.hero img{
+    width: 300px;
+}
+
+.episode {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.episodes{
+    padding-left: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #085903;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.episodes h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #085903;
+    font-size: 40px;
+}
