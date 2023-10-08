@@ -55,6 +55,11 @@ header img{
     display: flex;
 }
 
+.introducao-episodio p{
+    display: flex;align-items: center;justify-content: center;
+    text-align: justify;
+}
+
 footer{
     display: flex;
     align-items: center;
