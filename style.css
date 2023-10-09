@@ -97,9 +97,10 @@ nav a {
 
 .button:hover{
     cursor: pointer;
-    padding: 15px 25px;
-    font-size: 25px;
-    transition: 0.5s;
+    padding: 11px 20px;
+    font-size: 21px;
+    transition: 0.3s;
+    box-shadow: 0 0 5px 5px #20f815;
 }
 
 footer{
