@@ -146,6 +146,18 @@ p {
     font-size: 30px;
     border-radius: 5px;
   }
+
+  .descricao {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .data-de-publicacao {
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+  }
+
 }
 
 /* Adicionando footer*/
