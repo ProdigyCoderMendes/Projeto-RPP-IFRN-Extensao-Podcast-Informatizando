@@ -1,12 +1,12 @@
 /* style.css */
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
-}
-
-header {
+  }
+  
+  header {
     display: flex;
     flex-direction: row;
     background-color: #085903;
@@ -14,118 +14,139 @@ header {
     padding: 30px;
     align-items: center;
     justify-content: center;
-}
-
-
-header img{
+  }
+  
+  header img {
     max-height: 110px;
-}
-
-nav ul {
+  }
+  
+  nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-nav li {
+  }
+  
+  nav li {
     display: inline;
     margin-right: 10px;
-}
-
-nav a {
+  }
+  
+  nav a {
     color: #fff;
     text-decoration: none;
-}
-
-.hero {
+  }
+  
+  .hero {
     text-align: center;
     padding: 100px;
     color: #100101;
-}
-
-.hero h2{
+  }
+  
+  .hero h2 {
     font-size: 30px;
-}
-
-.hero p{
+  }
+  
+  .hero p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 30px;
     font-size: 20px;
     font-weight: 600;
     text-align: justify;
-}
-
-.hero img{
+  }
+  
+  .hero img {
     border-radius: 20px;
     width: 300px;
-}
-
-.hero img:hover{
+    box-shadow: rgba(1, 163, 192, 0.56) 0px 22px 70px 4px;
+  }
+  
+  .hero img:hover {
     cursor: pointer;
-    width: 340px;
-    transition: 0.5s;
-}
-
-.episode {
+  }
+  
+  .episode {
     padding: 20px;
     margin-bottom: 20px;
-}
-
-.episode p{
-    font-size: 20px;
+  }
+  
+  .descricao{
+    font-size: 18px;
     font-weight: 300;
-}
+  }
 
-.episode h3{
+  .data-de-publicacao{
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .episode h3 {
     font-size: 25px;
-}
-
-.episodes{
+  }
+  
+  .episodes {
     padding-left: 20px;
-}
-
-
-
-.button {
+  }
+  
+  .button {
     display: inline-block;
-    background-color: #085903;
-    color: #fff;
+    background-image: linear-gradient(
+      to right,
+      #25aae1,
+      #15f086,
+      #08b963,
+      #04753f
+    );
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    color: rgb(255, 255, 255);
     padding: 10px 20px;
     text-decoration: none;
     font-size: 20px;
     border-radius: 5px;
-}
-
-.button:hover{
+    font-weight: 600;
     cursor: pointer;
-    padding: 15px 25px;
-    font-size: 25px;
-    transition: 0.5s;
-}
-
-footer{
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    background-position: 100% 0;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  footer {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.episodes h2{
+  }
+  
+  .episodes h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #085903;
+    color: #100101;
     font-size: 40px;
-}
-
-p{
+  }
+  
+  p {
     font-weight: 300;
-}
-
-@media screen and (max-width: 768px) {
-    .button{
-    padding: 20px 30px;
-    text-decoration: none;
-    font-size: 30px;
-    border-radius: 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .button {
+      padding: 20px 30px;
+      text-decoration: none;
+      font-size: 30px;
+      border-radius: 5px;
     }
-
-}
+  }
+  

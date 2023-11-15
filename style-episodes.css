@@ -1,12 +1,12 @@
 /* style.css */
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
-}
-
-header {
+  }
+  
+  header {
     display: flex;
     flex-direction: row;
     background-color: #085903;
@@ -14,82 +14,84 @@ header {
     padding: 30px;
     align-items: center;
     justify-content: center;
-}
-
-header img{
+  }
+  
+  header img {
     max-height: 110px;
-}
-
-.hero {
+  }
+  
+  .hero {
     text-align: center;
     padding: 50px;
     color: #100101;
-}
-
-.hero h2{
+  }
+  
+  .hero h2 {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 40px;
     padding-bottom: 30px;
-}
-
-.hero img{
+  }
+  
+  .hero img {
     border-radius: 20px;
     width: 300px;
-}
-
-.hero img:hover{
+    box-shadow: rgba(1, 163, 192, 0.56) 0px 22px 70px 4px;
+  }
+  
+  .hero img:hover {
     cursor: pointer;
-    width: 340px;
-    transition: 0.5s;
-}
-
-.hero p{
+  }
+  
+  .hero p {
     margin: 30px;
     font-size: 25px;
     font-weight: 600;
-}
-
-.introducao-episodio{
+  }
+  
+  .introducao-episodio {
     display: flex;
-}
-
-.introducao-episodio p{
-    display: flex;align-items: center;justify-content: center;
-    text-align: justify;
-}
-
-footer{
+  }
+  
+  .introducao-episodio p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-/* midia queries */
-/* Estilos para telas menores (por exemplo, telas de celular) */
-@media screen and (max-width: 768px) {
-    .hero{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+    text-align: justify;
+  }
+  
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* midia queries */
+  /* Estilos para telas menores (por exemplo, telas de celular) */
+  @media screen and (max-width: 768px) {
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
-
-    .hero img:hover{
-        cursor: pointer;
-        width: 340px;
-        transition: 0.5s;
+  
+    .hero img:hover {
+      cursor: pointer;
+      width: 340px;
+      transition: 0.5s;
     }
-
-    .hero h2{
-        font-size: 40px;
+  
+    .hero h2 {
+      font-size: 40px;
     }
-
-    .introducao-episodio{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+  
+    .introducao-episodio {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
-}
+  }
+  
