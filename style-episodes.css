@@ -60,6 +60,8 @@ header img {
   justify-content: center;
   text-align: justify;
   font-size: 20px;
+  margin-top: 40px;
+  font-weight: 300;
 }
 
 /*Adicionando footer*/
