@@ -97,8 +97,8 @@ nav a {
 }
 
 .episodes {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-left: 20px;
@@ -149,6 +149,80 @@ nav a {
 
 p {
   font-weight: 300;
+}
+
+/* Estilos para o formulário de contato */
+form {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: rgba(1, 163, 192, 0.56) 0px 22px 70px 4px;
+}
+
+.form h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 50px 100px 20px 100px;
+  color: #100101;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000000;
+  font-weight: 600;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+form textarea {
+  height: 150px;
+}
+
+form input[type="submit"] {
+  display: inline-block;
+  margin: 5px;
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #15f086,
+    #08b963,
+    #04753f
+  );
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+  cursor: pointer;
+  background-position: 100% 0;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 @media screen and (max-width: 768px) {
@@ -371,10 +445,14 @@ p {
   margin-right: 3px;
   color: #e82626;
 }
+
+
 /*Responsivo*/
 /*768PX BREAKPOINT*/
 @media (min-width: 48em) {
   .colfooter {
+    display: flex;
+    flex-direction: column;
     width: 30%;
     margin-right: 5%;
     margin-bottom: 0;

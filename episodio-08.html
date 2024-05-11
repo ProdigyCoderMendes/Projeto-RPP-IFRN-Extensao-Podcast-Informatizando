@@ -7,7 +7,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap"
       rel="stylesheet"
     />
-    <title>Podcast de Tecnologia</title>
+    <title>Podcast Informatizando</title>
     <link rel="stylesheet" type="text/css" href="style-episodes.css" />
   </head>
   <body>
@@ -98,6 +98,25 @@
       </div>
     </section>
 
+    <section class="form">
+      <h2>Entre em contato</h2>
+
+      <form action="processar_formulario.php" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+
+        <div class="input-form"><input type="submit" value="Enviar" /></div>
+      </form>
+    </section>
+
+
+
     <footer class="main_footer container">
       <div class="content">
         <div class="colfooter">
@@ -109,8 +128,7 @@
                 >Voltar para a página inicial</a
               >
             </li>
-            <li><a href="#" title="Sobre nós">Sobre nós</a></li>
-            <li><a href="#" title="Fale Conosco">Fale Conosco</a></li>
+            <li><a href="sobre-nos.html" title="Sobre nós">Sobre nós</a></li>
           </ul>
         </div>
         <!--Col Footer 1-->
@@ -124,7 +142,7 @@
           <h3 class="titleFooter">Redes Sociais</h3>
 
           <a
-            href="https://www.instagram.com/mendss.g/"
+            href="https://www.instagram.com/gabmndzz/"
             target="_blank"
             class="botao"
             ><span> <ion-icon name="logo-instagram"></ion-icon> </span
@@ -160,10 +178,10 @@
           >
           e
           <a
-            href="https://www.instagram.com/larii_sylvaah/"
+            href="#"
             target="_blank"
             title="Gabriel Mendes"
-            >Larissa</a
+            >Luis Henrique</a
           >
         </p>
       </div>
