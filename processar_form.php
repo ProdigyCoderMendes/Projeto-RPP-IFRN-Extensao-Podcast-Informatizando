@@ -11,7 +11,7 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     die("Conexão falhou: " . mysqli_connect_error());
 }
-echo "Conexão bem-sucedida";
+echo '<div style="font-size: 22px; padding: 20px; ">' . 'Conexão bem sucedida' . '</div>';
 
 // Verificar se o formulário foi submetido
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Inserir dados no banco de dados
     $sql = "INSERT INTO contatos (nome, email, mensagem) VALUES ('$nome', '$email', '$mensagem')";
     if (mysqli_query($conn, $sql)) {
-        echo "Dados inseridos com sucesso";
+        echo '<div style="font-size: 22px; padding: 20px; ">' . 'Mensagem enviada com sucesso' . '</div>';
     } else {
         echo "Erro ao inserir dados: " . mysqli_error($conn);
     }
