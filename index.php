@@ -45,7 +45,7 @@
       </p>
       <p class="data-de-publicacao">Publicado em Julho de 2020</p>
       <a href="https://open.spotify.com/episode/7CWaOxJwvMlbBNupDKF7Ub" target="_blank" class="button">Ouvir</a>
-      <a href="episodio-01.html" class="button">Saber mais</a>
+      <a href="episodio-01.php" class="button">Saber mais</a>
     </div>
 
     <div class="episode">
@@ -59,7 +59,7 @@
       </p>
       <p class="data-de-publicacao">Publicado em Janeiro de 2021</p>
       <a href="https://open.spotify.com/episode/1tGe55S7Itf8Tl575aS3TN" target="_blank" class="button">Ouvir</a>
-      <a href="episodio-02.html" class="button">Saber mais</a>
+      <a href="episodio-02.php" class="button">Saber mais</a>
     </div>
 
     <div class="episode">
@@ -73,7 +73,7 @@
       </p>
       <p class="data-de-publicacao">Publicado em Fevereiro de 2021</p>
       <a href="https://open.spotify.com/episode/3OPnxQ1kNOEbklT8lpc6GQ" target="_blank" class="button">Ouvir</a>
-      <a href="episodio-03.html" class="button">Saber mais</a>
+      <a href="episodio-03.php" class="button">Saber mais</a>
     </div>
 
     <div class="episode">
@@ -87,7 +87,7 @@
       </p>
       <p class="data-de-publicacao">Publicado em Julho de 2021</p>
       <a href="https://open.spotify.com/episode/6N2vzaWV1MbZFmtAVWNgxE" target="_blank" class="button">Ouvir</a>
-      <a href="episodio-04.html" class="button">Saber mais</a>
+      <a href="episodio-04.php" class="button">Saber mais</a>
     </div>
 
     <div class="episode">
@@ -101,7 +101,7 @@
       </p>
       <p class="data-de-publicacao">Publicado em Agosto de 2021</p>
       <a href="https://open.spotify.com/episode/4G0RjqxyPGArM7NnkQ8YI8" target="_blank" class="button">Ouvir</a>
-      <a href="episodio-05.html" class="button">Saber mais</a>
+      <a href="episodio-05.php" class="button">Saber mais</a>
     </div>
 
     <div class="episode">
@@ -115,7 +115,7 @@
       </p>
       <p class="data-de-publicacao">Publicado em Outubro de 2021</p>
       <a href="https://open.spotify.com/episode/4A0Kw5S84kmRD3scqiPcfk" target="_blank" class="button">Ouvir</a>
-      <a href="episodio-06.html" class="button">Saber mais</a>
+      <a href="episodio-06.php" class="button">Saber mais</a>
     </div>
 
     <div class="episode">
@@ -129,7 +129,7 @@
       </p>
       <p class="data-de-publicacao">Publicado em Outubro de 2022</p>
       <a href="https://open.spotify.com/episode/3nxQ31uFzwJQZaFPjEkOki" target="_blank" class="button">Ouvir</a>
-      <a href="episodio-07.html" class="button">Saber mais</a>
+      <a href="episodio-07.php" class="button">Saber mais</a>
     </div>
 
     <div class="episode">
@@ -143,7 +143,7 @@
       </p>
       <p class="data-de-publicacao">Publicado em Novembro de 2022</p>
       <a href="https://open.spotify.com/episode/61dVI63VLtO53WPwJ8Zky5" target="_blank" class="button">Ouvir</a>
-      <a href="episodio-08.html" class="button">Saber mais</a>
+      <a href="episodio-08.php" class="button">Saber mais</a>
     </div>
 
     <div class="episode">
@@ -156,7 +156,7 @@
       </p>
       <p class="data-de-publicacao">Publicado em Dezembro de 2022</p>
       <a href="https://open.spotify.com/episode/5VRVfy2VUUtvKBBY2DOsXq" target="_blank" class="button">Ouvir</a>
-      <a href="episodio-09.html" class="button">Saber mais</a>
+      <a href="episodio-09.php" class="button">Saber mais</a>
     </div>
 
     <!-- Mais episódios aqui -->
@@ -318,7 +318,7 @@
           <li>
             <a href="index.php" title="Voltar para a página inicial">Voltar para a página inicial</a>
           </li>
-          <li><a href="sobre-nos.html" title="Sobre nós">Sobre nós</a></li>
+          <li><a href="sobre-nos.php" title="Sobre nós">Sobre nós</a></li>
         </ul>
       </div>
       <!--Col Footer 1-->
