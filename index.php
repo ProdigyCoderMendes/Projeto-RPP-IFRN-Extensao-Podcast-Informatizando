@@ -214,13 +214,14 @@
                     );
                     box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
                     text-decoration: none;
+                    padding: 3px 3px 3px;
                     font-size: 20px;
                     font-weight: 600;
                     text-align: center;
                     border: none;
                     -o-transition: all 0.4s ease-in-out;
                     -webkit-transition: all 0.4s ease-in-out;
-                    transition: all 0.4s ease-in-out; ">' . 'Seu comentário postado com sucesso' . '</div>';
+                    transition: all 0.4s ease-in-out; ">' . 'Seu comentário foi postado com sucesso. Veja-o abaixo.' . '</div>';
                 } else {
                     echo "Erro ao inserir dados: " . mysqli_error($conn);
                 }

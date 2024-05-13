@@ -173,43 +173,43 @@ p {
 
 
 .coments{
-  padding: 20px;
-  margin: 20px 100px 20px 100px;
-  width: 80%;
-  height: 100%;
-  box-shadow: 3px 4px 23px -9px rgba(10, 10, 10, 1);
-  -webkit-box-shadow: 3px 4px 23px -9px rgba(10, 10, 10, 1);
-  -moz-box-shadow: 3px 4px 23px -9px rgba(10, 10, 10, 1);
-  border-radius: 7px;
-}
-
-.coments h2 {
-  font-size: 30px;
-  text-align: center;
-  padding: 20px 100px 20px 100px;
-  color: #100101;
-}
-
-.nome{
-  font-weight: bolder;
-  font-size: 20px;
-  padding: 12px 0 0 12px;
-}
-
-.mensagem{
-  padding: 0 0 0 12px;
-}
-
-.comentario-data {
-  font-size: 12px;
-  font-weight: 300;
-  font-style: italic;
-  padding: 0 0 12px 12px;
-}
-
-.comentario{
-  box-shadow: 3px 4px 23px -9px rgba(10, 10, 10, 1);
-  -webkit-box-shadow: 3px 4px 23px -9px rgba(10, 10, 10, 1);
-  -moz-box-shadow: 3px 4px 23px -9px rgba(10, 10, 10, 1);
-  border-radius: 12px;
-}
+    padding: 20px;
+    margin: 20px 100px 20px 100px;
+    width: 80%;
+    height: 100%;
+    box-shadow: 3px 4px 23px -9px rgba(10, 10, 10, 1);
+    -webkit-box-shadow: 3px 4px 23px -9px rgba(10, 10, 10, 1);
+    -moz-box-shadow: 3px 4px 23px -9px rgba(10, 10, 10, 1);
+    border-radius: 7px;
+  }
+  
+  .coments h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 100px 20px 100px;
+    color: #100101;
+  }
+  
+  .nome{
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 12px 0 0 12px;
+  }
+  
+  .mensagem{
+    padding: 0 0 0 12px;
+  }
+  
+  .comentario-data {
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+    padding: 0 0 12px 12px;
+  }
+  
+  .comentario{
+    box-shadow: 3px 4px 23px -9px rgba(10, 10, 10, 1);
+    -webkit-box-shadow: 3px 4px 23px -9px rgba(10, 10, 10, 1);
+    -moz-box-shadow: 3px 4px 23px -9px rgba(10, 10, 10, 1);
+    border-radius: 12px;
+  }
