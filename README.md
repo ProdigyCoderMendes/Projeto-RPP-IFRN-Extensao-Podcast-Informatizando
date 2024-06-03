@@ -2,10 +2,6 @@
 
 Este projeto consiste em um site para um podcast chamado "Informatizando", que aborda diversos temas relacionados à tecnologia. O site oferece informações sobre os episódios do podcast, permite ouvir os episódios diretamente no Spotify, inclui um formulário de comentários e fornece detalhes sobre a equipe por trás do podcast.
 
-## Sobre o Projeto
-
-Este projeto consiste em um site que acompanha o podcast, fornecendo informações sobre os episódios, os membros da equipe, e oferecendo um espaço para interação com os ouvintes, como comentários e feedback. O site é desenvolvido usando HTML, CSS e PHP para a lógica de servidor.
-
 ## Conteúdo
 
 O conteúdo do podcast abrange uma ampla gama de temas relevantes para a comunidade de tecnologia. Os episódios são lançados regularmente e apresentam discussões, entrevistas com especialistas e insights sobre os desafios e oportunidades no mundo digital.
